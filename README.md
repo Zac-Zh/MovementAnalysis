@@ -1,7 +1,19 @@
-(1) [main.m] Main function
-(2) [initialEMG.m] Initialize EGM, including [getEMGData.m]
-(3) [getEMGData.m] Get EGM data
-(4) [BP_filter_EMG.m] EMG bandpass filter processing
-(5) [LP_filter_EMG.m] EMG low-pass filter processing
-(6) [Marker09.m] Changes of Marker09 position x, y, z over time, including [LP_butter_Marker.m]
-(7) [LP_butter_Marker.m]
+# EMG Signal Processing & Marker09 Trajectory Analysis
+
+This repository contains MATLAB scripts for preprocessing EMG signals and analyzing the 3D trajectory of Marker09.
+
+## Table of Contents
+
+- [Overview](#overview)  
+- [Repository Structure](#repository-structure)  
+- [Usage](#usage)  
+- [Script Descriptions](#script-descriptions)  
+- [Dependencies](#dependencies)  
+- [Author](#author)  
+
+## Overview
+
+This project extracts clean EMG signals from raw data using band-pass and low-pass filters, then visualizes the x, y, and z position changes of Marker09 over time.
+
+## Repository Structure
+
